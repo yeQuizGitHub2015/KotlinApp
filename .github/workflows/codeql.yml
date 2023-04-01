@@ -25,4 +25,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: bash-version
-        run: echo "::add-mask::$ANDROID_HOME"
+        run: echo $ANDROID_HOME
